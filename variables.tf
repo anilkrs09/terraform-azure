@@ -10,7 +10,7 @@ variable "location" {
 
 variable "resource_group_name" {
   description = "The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `myprefix`."
-  default = "Testpoc"
+  default = "Testgroup"
 }
 
 variable "existingVirtualNetworkName" {
@@ -35,17 +35,17 @@ variable "poolName" {
 
 variable "PersonalAccessToken" {
   description = "The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `myprefix`."
-  default = "y437kbc5zo6lk5jbkulumkexqqferzf3wcv24jwiynd6lebz5bya"
+  default = "y437kbc645yy7uhe674d4546789oid6lebz5bya"
 }
 
 variable "VSTSAccount" {
   description = "The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `myprefix`."
-  default = "testdevops"
+  default = "tes"
 }
 
 variable "teamProject" {
   description = "The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `myprefix`."
-  default = "testdevops"
+  default = "tes"
 }
 
 variable "vmAdminUserName" {
@@ -55,7 +55,7 @@ variable "vmAdminUserName" {
 
 variable "vmAdminPassword" {
   description = "The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `myprefix`."
-  default = "P@ssw0rd01"
+  default = "abc@123"
 }
 
 variable "imagePublisher" {
