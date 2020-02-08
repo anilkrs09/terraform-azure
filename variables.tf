@@ -34,13 +34,13 @@ variable "poolName" {
 }
 
 variable "PersonalAccessToken" {
-  description = "Provide PErsonal Access Token"
-  default = "u3ymo3be7tjgryewjbbvlzb35p4vldc4xtb4dlcue6er3qq55zqq"
+  description = "Provide Personal Access Token"
+  default = "u3ymofhtrfgfurt3456gr78uthxtb4dlcue6er3qq55zqq"
 }
 
 variable "VSTSAccount" {
   description = "Provide Name of VSTS account"
-  default = "ghamad"
+  default = "teeeeest"
 }
 
 variable "vmAdminUserName" {
@@ -50,7 +50,7 @@ variable "vmAdminUserName" {
 
 variable "vmAdminPassword" {
   description = "Provide password for the admin of VM"
-  default = "P@ssw0rd01"
+  default = "abc123"
 }
 
 variable "imagePublisher" {
